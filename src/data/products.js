@@ -21,9 +21,10 @@ export const products = [
     reason: 'Maite lo recomienda cuando quieres aportar luz a la rutina sin complicarla ni recargar la piel.',
     shortReason: 'Luminosidad y gesto diario de cuidado consciente.',
     productUrl:
-      'https://farmasi.es/maite84/product-detail/72df5fa0-6370-ef11-84f3-02f716a02c8f?pid=1002167',
+      'https://www.farmasi.es/maite84/product-detail/dr-c-tuna-vitamin-c-glow-serum?pid=1002167',
     linkStatus: 'confirmed-product-link',
     sourcePage: 'https://maidecoratefarmasi.com/mis-recomendaciones/',
+    sourceNote: 'Producto oficial Farmasi localizado por nombre y pid 1002167',
     originalProductName: 'Vitamin C Glow Serum / Sérum Iluminador con Vitamina C - Dr. C. Tuna',
     imageKey: 'serum-vitamin-c',
     alt: 'Serum de vitamina C con textura ligera sobre bandeja de piedra en un entorno premium de cosmética natural.'
@@ -36,9 +37,11 @@ export const products = [
     audience: 'Pieles sensibles, secas o que buscan una sensación calmante dentro de la rutina.',
     reason: 'Es una opción amable para empezar a cuidarse con fórmulas reconfortantes y una experiencia muy sensorial.',
     shortReason: 'Calma, mimo y textura confortable.',
-    productUrl: FARMASI_GENERAL_STORE_URL,
-    linkStatus: 'fallback-general-store',
+    productUrl:
+      'https://www.farmasi.es/maite84/product-detail/dr-c-tuna-calendula-balsamo-crema?pid=1000286',
+    linkStatus: 'confirmed-product-link',
     sourcePage: 'https://maidecoratefarmasi.com/mis-recomendaciones/',
+    sourceNote: 'Producto oficial Farmasi localizado por nombre y pid 1000286',
     originalProductName: 'Bálsamo de Caléndula - Pieles Sensibles',
     imageKey: 'calendula-balm',
     alt: 'Bálsamo de caléndula con acabado suave, rodeado de pétalos crema y beige.'
@@ -54,6 +57,7 @@ export const products = [
     productUrl: 'https://farmasi.es/maite84/product-detail/bb-beauty-balm-light?pid=1001551',
     linkStatus: 'confirmed-product-link',
     sourcePage: 'https://maidecoratefarmasi.com/mis-recomendaciones/',
+    sourceNote: 'Enlace procedente de la web antigua Maidecorate',
     originalProductName: 'BB Cream - Tono Light to Medium / BB Cream con SPF 15',
     imageKey: 'bb-cream',
     alt: 'BB cream de maquillaje natural junto a brocha suave y tonos nude.'
@@ -67,9 +71,10 @@ export const products = [
     reason: 'Es el toque final perfecto para elevar el gesto cotidiano sin perder naturalidad.',
     shortReason: 'Color elegante para un maquillaje con presencia serena.',
     productUrl:
-      'https://farmasi.es/maite84/product-detail/00bde14f-7d30-ee11-83b4-000d3a71539d?pid=1001412',
+      'https://www.farmasi.es/maite84/product-detail/labial-liquido-mate-retro-rose-04?pid=1001412',
     linkStatus: 'confirmed-product-link',
     sourcePage: 'https://maidecoratefarmasi.com/mis-recomendaciones/',
+    sourceNote: 'Producto oficial Farmasi localizado por nombre y pid 1001412',
     originalProductName: 'Labial Líquido Mate - Retro Rose',
     imageKey: 'retro-rose-lipstick',
     alt: 'Labial líquido mate en tono rosa empolvado sobre superficie de mármol cálido.'
@@ -82,9 +87,11 @@ export const products = [
     audience: 'Quien prefiere brillo cómodo, labios jugosos y un efecto cuidado más que recargado.',
     reason: 'Maite lo recomienda para días de maquillaje rápido en los que aún quieres verte pulida.',
     shortReason: 'Brillo fácil con efecto fresco y bonito.',
-    productUrl: FARMASI_GENERAL_STORE_URL,
-    linkStatus: 'fallback-general-store',
+    productUrl:
+      'https://www.farmasi.es/maite84/product-detail/ultimate-shine-lip-gloss-shiny-cooperpink-tourmaline?pid=1001406',
+    linkStatus: 'confirmed-product-link',
     sourcePage: 'https://maidecoratefarmasi.com/mis-recomendaciones/',
+    sourceNote: 'Producto oficial Farmasi localizado por nombre y pid 1001406',
     originalProductName: 'Ultimate Shine Lip Gloss - Pink Tourmaline',
     imageKey: 'pink-tourmaline-gloss',
     alt: 'Lip gloss rosa brillante con reflejos suaves en un set de belleza femenino.'
@@ -100,6 +107,7 @@ export const products = [
     productUrl: FARMASI_GENERAL_STORE_URL,
     linkStatus: 'fallback-general-store',
     sourcePage: 'sin enlace individual confirmado en maidecoratefarmasi.com',
+    sourceNote: 'Sin enlace individual confirmado; se mantiene fallback a tienda general de Maite',
     originalProductName: 'Tea Tree Routine Essentials',
     imageKey: 'tea-tree-hair',
     alt: 'Rutina capilar con envases verdes suaves, peine de madera y toalla de lino.'
@@ -115,6 +123,7 @@ export const products = [
     productUrl: FARMASI_GENERAL_STORE_URL,
     linkStatus: 'fallback-general-store',
     sourcePage: 'sin enlace individual confirmado en maidecoratefarmasi.com',
+    sourceNote: 'Sin enlace individual confirmado; se mantiene fallback a tienda general de Maite',
     originalProductName: 'Fragancia Signature Soft Bloom',
     imageKey: 'signature-fragrance',
     alt: 'Frasco de fragancia femenina con flores suaves y luz cálida de tarde.'
@@ -130,6 +139,7 @@ export const products = [
     productUrl: FARMASI_GENERAL_STORE_URL,
     linkStatus: 'fallback-general-store',
     sourcePage: 'sin enlace individual confirmado en maidecoratefarmasi.com',
+    sourceNote: 'Sin enlace individual confirmado; se mantiene fallback a tienda general de Maite',
     originalProductName: 'Beauty Starter Edit',
     imageKey: 'starter-edit',
     alt: 'Selección inicial de productos Farmasi en ambiente editorial de belleza natural.'

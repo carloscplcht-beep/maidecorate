@@ -11,7 +11,9 @@ export const siteConfig = {
   storeCta: 'Ir a mi tienda Farmasi',
   helpCta: 'Necesito ayuda para elegir',
   buyButtonLabel: 'Comprar en Farmasi',
-  whatsappButtonLabel: 'Consultar por WhatsApp',
+  emailButtonLabel: 'Consultar por email',
+  contactEmail: 'maite.taran@gmail.com',
+  contactEmailUrl: 'mailto:maite.taran@gmail.com?subject=Consulta%20Maidecorate%20Farmasi',
   sameAs: [],
   person: {
     name: 'Maite García',
@@ -23,12 +25,11 @@ export const siteConfig = {
   },
   links: {
     farmasiStore: 'https://www.farmasi.es/maite84',
-    whatsapp:
-      'https://api.whatsapp.com/send?phone=34600000000&text=Hola%20Maite%2C%20me%20gustar%C3%ADa%20recibir%20tu%20ayuda%20para%20elegir%20productos%20Farmasi.',
+    contactEmailUrl: 'mailto:maite.taran@gmail.com?subject=Consulta%20Maidecorate%20Farmasi',
     // Placeholder heredado: sustituir cuando exista una URL real confirmada.
     instagram: 'https://www.instagram.com/tuusuario',
     instagramStatus: 'placeholder-unconfirmed',
-    email: 'mailto:hola@maidecoratefarmasi.com',
+    email: 'mailto:maite.taran@gmail.com?subject=Consulta%20Maidecorate%20Farmasi',
     tiktok: '',
     cookies: '/cookies/',
     privacy: '/privacidad/',
@@ -110,7 +111,7 @@ export const pages = {
       ctas: [
         { label: 'Ver recomendaciones', path: '/mis-recomendaciones/' },
         { label: 'Cómo comprar', path: '/como-comprar/' },
-        { label: 'Consultar con Maite', href: siteConfig.links.whatsapp }
+        { label: 'Consultar por email', href: siteConfig.links.contactEmailUrl }
       ],
       imageKey: 'hero-editorial'
     },
@@ -151,7 +152,7 @@ export const pages = {
       },
       {
         title: 'Contacto',
-        description: 'WhatsApp, Instagram y un formulario estático pensado para recibir consultas con facilidad.',
+        description: 'Email, Instagram y un formulario estático pensado para recibir consultas con facilidad.',
         path: '/contacto/',
         imageKey: 'contact-editorial'
       },
@@ -188,8 +189,8 @@ export const pages = {
         'Explora el catálogo oficial desde el enlace personal y apóyate en Maite si quieres una recomendación más afinada.',
       primaryLabel: 'Ir a mi tienda Farmasi',
       primaryHref: siteConfig.links.farmasiStore,
-      secondaryLabel: 'Pedir consejo',
-      secondaryHref: siteConfig.links.whatsapp
+      secondaryLabel: 'Pedir consejo a Maite',
+      secondaryHref: siteConfig.links.contactEmailUrl
     },
     faqs: []
   },
@@ -514,7 +515,7 @@ export const pages = {
     seo: {
       title: 'Contacto | Habla con Maite sobre productos Farmasi y belleza consciente',
       description:
-        'Escríbele a Maite por WhatsApp, Instagram o correo para recibir ayuda personalizada al elegir productos Farmasi.',
+        'Escríbele a Maite por email, Instagram o correo para recibir ayuda personalizada al elegir productos Farmasi.',
       keywords: [...sharedKeywords, 'contacto Farmasi', 'consultar con Maite']
     },
     hero: {
@@ -525,10 +526,10 @@ export const pages = {
     },
     methods: [
       {
-        title: 'WhatsApp',
-        description: 'El acceso más directo para pedir consejo rápido sobre categorías, texturas o ideas de regalo.',
-        href: siteConfig.links.whatsapp,
-        label: 'Abrir WhatsApp'
+        title: 'Email directo',
+        description: 'El acceso más directo para pedir consejo sobre categorías, texturas o ideas de regalo.',
+        href: siteConfig.links.contactEmailUrl,
+        label: 'Enviar consulta'
       },
       {
         title: 'Instagram',
@@ -666,7 +667,7 @@ export const pages = {
       {
         title: 'Terceros y plataformas',
         body:
-          'Incluye referencias a proveedores de hosting, correo, analítica, WhatsApp o redes sociales si intervienen en el tratamiento.'
+          'Incluye referencias a proveedores de hosting, correo, analítica o redes sociales si intervienen en el tratamiento.'
       }
     ],
     faqs: []

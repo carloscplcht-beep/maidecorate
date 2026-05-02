@@ -43,7 +43,7 @@ export function HowToBuyPage() {
           <SmartLink href={siteConfig.links.farmasiStore} className="button button-primary">
             {siteConfig.storeCta}
           </SmartLink>
-          <SmartLink href={siteConfig.links.whatsapp} className="button button-soft">
+          <SmartLink href={siteConfig.links.contactEmailUrl} className="button button-soft">
             {siteConfig.helpCta}
           </SmartLink>
         </div>

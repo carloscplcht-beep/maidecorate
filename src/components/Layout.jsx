@@ -32,8 +32,8 @@ function MobileStickyBar() {
       <SmartLink href={siteConfig.links.farmasiStore} className="button button-primary button-compact">
         {siteConfig.buyButtonLabel}
       </SmartLink>
-      <SmartLink href={siteConfig.links.whatsapp} className="button button-soft button-compact">
-        {siteConfig.whatsappButtonLabel}
+      <SmartLink href={siteConfig.links.contactEmailUrl} className="button button-soft button-compact">
+        {siteConfig.emailButtonLabel}
       </SmartLink>
     </div>
   );
@@ -97,8 +97,8 @@ export function Layout({ currentPage, children }) {
             <SmartLink href={siteConfig.links.farmasiStore} className="button button-primary">
               {siteConfig.storeCta}
             </SmartLink>
-            <SmartLink href={siteConfig.links.whatsapp} className="button button-soft">
-              Consultar con Maite
+            <SmartLink href={siteConfig.links.contactEmailUrl} className="button button-soft">
+              Consultar por email
             </SmartLink>
           </div>
         </section>

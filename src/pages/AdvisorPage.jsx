@@ -153,8 +153,8 @@ export function AdvisorPage() {
             <SmartLink href="/mis-recomendaciones/" className="button button-soft">
               Ir a recomendaciones
             </SmartLink>
-            <SmartLink href={siteConfig.links.whatsapp} className="button button-primary">
-              Consultar con Maite
+            <SmartLink href={siteConfig.links.contactEmailUrl} className="button button-primary">
+              Consultar por email
             </SmartLink>
           </div>
         </article>

@@ -26,7 +26,7 @@ export const externalProps = (href = '') =>
 export const createAdviceHref = (productName = 'estos productos') => {
   const message = `Hola Maite, me gustaría tu consejo sobre ${productName} en Farmasi.`;
 
-  return `${siteConfig.links.whatsapp.split('&text=')[0]}&text=${encodeURIComponent(message)}`;
+  return `${siteConfig.contactEmailUrl}&body=${encodeURIComponent(message)}`;
 };
 
 export const createMailtoHref = ({ name, email, message }) => {
@@ -35,5 +35,5 @@ export const createMailtoHref = ({ name, email, message }) => {
     message
   )}`;
 
-  return `${siteConfig.links.email}?subject=${encodeURIComponent(subject)}&body=${body}`;
+  return `mailto:${siteConfig.contactEmail}?subject=${encodeURIComponent(subject)}&body=${body}`;
 };
