@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fffaf6"/>
+      <stop offset="1" stop-color="#e7d7d4"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="26" stdDeviation="24" flood-color="#6f574e" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect x="290" y="120" width="620" height="680" rx="72" fill="#f7efe8" filter="url(#s)"/>
+  <circle cx="600" cy="348" r="120" fill="#c49a83"/>
+  <path d="M420 680 C475 520 724 520 780 680 C696 740 504 740 420 680Z" fill="#91624d"/>
+  <path d="M450 330 C500 205 696 204 750 330 C696 286 512 286 450 330Z" fill="#3a2f2a"/>
+  <circle cx="556" cy="358" r="12" fill="#3a2f2a"/>
+  <circle cx="644" cy="358" r="12" fill="#3a2f2a"/>
+  <path d="M552 420 C590 446 632 446 668 420" fill="none" stroke="#6f574e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M166 674 C260 600 404 618 460 724 C330 784 222 780 166 674Z" fill="#cfd8cc"/>
+  <path d="M746 166 C852 96 1010 130 1070 250 C930 318 812 294 746 166Z" fill="#d4b280" opacity=".45"/>
+</svg>

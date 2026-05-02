@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.tools/
+qa/
+src/assets/images/current/
+.env
+.env.local
+.DS_Store
+*.log
+*.report.html
