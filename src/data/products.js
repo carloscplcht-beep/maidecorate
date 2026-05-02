@@ -11,6 +11,7 @@ export const productFilters = [
 export const FARMASI_GENERAL_STORE_URL = 'https://www.farmasi.es/maite84';
 
 // Los enlaces proceden de la web antigua maidecoratefarmasi.com y deben revisarse periódicamente por si Farmasi cambia las URLs.
+// Las imágenes confirmadas proceden de la web antigua maidecoratefarmasi.com y deben revisarse periódicamente por si Farmasi cambia los productos visuales.
 export const products = [
   {
     id: 'vitamin-c-glow-serum',
@@ -27,7 +28,9 @@ export const products = [
     sourceNote: 'Producto oficial Farmasi localizado por nombre y pid 1002167',
     originalProductName: 'Vitamin C Glow Serum / Sérum Iluminador con Vitamina C - Dr. C. Tuna',
     imageKey: 'serum-vitamin-c',
-    alt: 'Serum de vitamina C con textura ligera sobre bandeja de piedra en un entorno premium de cosmética natural.'
+    imageStatus: 'confirmed-product-image',
+    imageSource: 'legacy-site',
+    alt: 'Dr. C. Tuna Vitamin C Glow Serum de Farmasi recomendado por Maidecorate.'
   },
   {
     id: 'calendula-balm',
@@ -44,7 +47,9 @@ export const products = [
     sourceNote: 'Producto oficial Farmasi localizado por nombre y pid 1000286',
     originalProductName: 'Bálsamo de Caléndula - Pieles Sensibles',
     imageKey: 'calendula-balm',
-    alt: 'Bálsamo de caléndula con acabado suave, rodeado de pétalos crema y beige.'
+    imageStatus: 'confirmed-product-image',
+    imageSource: 'legacy-site',
+    alt: 'Dr. C Tuna Caléndula Bálsamo Crema de Farmasi recomendado por Maidecorate.'
   },
   {
     id: 'bb-cream-light-medium',
@@ -60,7 +65,9 @@ export const products = [
     sourceNote: 'Enlace procedente de la web antigua Maidecorate',
     originalProductName: 'BB Cream - Tono Light to Medium / BB Cream con SPF 15',
     imageKey: 'bb-cream',
-    alt: 'BB cream de maquillaje natural junto a brocha suave y tonos nude.'
+    imageStatus: 'confirmed-product-image',
+    imageSource: 'legacy-site',
+    alt: 'BB Cream con SPF 15 Farmasi Beauty Balm Light recomendada por Maidecorate.'
   },
   {
     id: 'retro-rose-lipstick',
@@ -77,7 +84,9 @@ export const products = [
     sourceNote: 'Producto oficial Farmasi localizado por nombre y pid 1001412',
     originalProductName: 'Labial Líquido Mate - Retro Rose',
     imageKey: 'retro-rose-lipstick',
-    alt: 'Labial líquido mate en tono rosa empolvado sobre superficie de mármol cálido.'
+    imageStatus: 'confirmed-product-image',
+    imageSource: 'legacy-site',
+    alt: 'Labial Líquido Mate Retro Rose 04 de Farmasi recomendado por Maidecorate.'
   },
   {
     id: 'ultimate-shine-lip-gloss',
@@ -94,7 +103,9 @@ export const products = [
     sourceNote: 'Producto oficial Farmasi localizado por nombre y pid 1001406',
     originalProductName: 'Ultimate Shine Lip Gloss - Pink Tourmaline',
     imageKey: 'pink-tourmaline-gloss',
-    alt: 'Lip gloss rosa brillante con reflejos suaves en un set de belleza femenino.'
+    imageStatus: 'confirmed-product-image',
+    imageSource: 'legacy-site',
+    alt: 'Ultimate Shine Lip Gloss Pink Tourmaline de Farmasi recomendado por Maidecorate.'
   },
   {
     id: 'tea-tree-routine',
@@ -110,6 +121,8 @@ export const products = [
     sourceNote: 'Sin enlace individual confirmado; se mantiene fallback a tienda general de Maite',
     originalProductName: 'Tea Tree Routine Essentials',
     imageKey: 'tea-tree-hair',
+    imageStatus: 'pending-real-image',
+    imageSource: 'pending-confirmation',
     alt: 'Rutina capilar con envases verdes suaves, peine de madera y toalla de lino.'
   },
   {
@@ -126,6 +139,8 @@ export const products = [
     sourceNote: 'Sin enlace individual confirmado; se mantiene fallback a tienda general de Maite',
     originalProductName: 'Fragancia Signature Soft Bloom',
     imageKey: 'signature-fragrance',
+    imageStatus: 'pending-real-image',
+    imageSource: 'pending-confirmation',
     alt: 'Frasco de fragancia femenina con flores suaves y luz cálida de tarde.'
   },
   {
@@ -142,6 +157,8 @@ export const products = [
     sourceNote: 'Sin enlace individual confirmado; se mantiene fallback a tienda general de Maite',
     originalProductName: 'Beauty Starter Edit',
     imageKey: 'starter-edit',
+    imageStatus: 'pending-real-image',
+    imageSource: 'pending-confirmation',
     alt: 'Selección inicial de productos Farmasi en ambiente editorial de belleza natural.'
   }
 ];

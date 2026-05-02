@@ -10,9 +10,12 @@ import productFaceCare from '../assets/images/placeholders/product-face-care.svg
 import productMakeup from '../assets/images/placeholders/product-makeup.svg';
 import productFragrance from '../assets/images/placeholders/product-fragrance.svg';
 import legacyMaitePortrait from '../assets/images/legacy/maite-portrait.webp';
-import legacyVitaminCSerum from '../assets/images/legacy/vitamin-c-serum.webp';
-import legacyBbCream from '../assets/images/legacy/bb-cream.webp';
 import legacyLifestyleMirror from '../assets/images/legacy/lifestyle-mirror.webp';
+import productVitaminCGlowSerum from '../assets/images/products/vitamin-c-glow-serum.webp';
+import productBbCreamLight from '../assets/images/products/bb-cream-light.webp';
+import productCalendulaBalm from '../assets/images/products/calendula-balm.webp';
+import productRetroRose04 from '../assets/images/products/retro-rose-04.webp';
+import productPinkTourmalineGloss from '../assets/images/products/ultimate-shine-lip-gloss-pink-tourmaline.webp';
 
 export const mediaLibrary = {
   'hero-editorial': {
@@ -80,24 +83,24 @@ export const mediaLibrary = {
     replacementNote: 'Sustituir por escena de bienestar o ritual de autocuidado.'
   },
   'serum-vitamin-c': {
-    src: legacyVitaminCSerum,
+    src: productVitaminCGlowSerum,
     replacementNote: 'Imagen real del sérum Vitamin C Glow Serum recuperada de la web anterior.'
   },
   'calendula-balm': {
-    src: productFaceCare,
-    replacementNote: 'Sustituir por imagen real del bálsamo de caléndula.'
+    src: productCalendulaBalm,
+    replacementNote: 'Imagen real del bálsamo de caléndula recuperada de la web anterior.'
   },
   'bb-cream': {
-    src: legacyBbCream,
+    src: productBbCreamLight,
     replacementNote: 'Imagen real de la BB Cream recuperada de la web anterior.'
   },
   'retro-rose-lipstick': {
-    src: productMakeup,
-    replacementNote: 'Sustituir por imagen real del labial Retro Rose.'
+    src: productRetroRose04,
+    replacementNote: 'Imagen real del labial Retro Rose 04 recuperada de la web anterior.'
   },
   'pink-tourmaline-gloss': {
-    src: productMakeup,
-    replacementNote: 'Sustituir por imagen real del gloss Pink Tourmaline.'
+    src: productPinkTourmalineGloss,
+    replacementNote: 'Imagen real del gloss Pink Tourmaline recuperada de la web anterior.'
   },
   'tea-tree-hair': {
     src: hairRitual,
