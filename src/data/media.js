@@ -1,16 +1,18 @@
 import heroEditorial from '../assets/images/placeholders/hero-editorial.svg';
-import philosophyEditorial from '../assets/images/placeholders/philosophy-editorial.svg';
 import naturalCosmetics from '../assets/images/placeholders/natural-cosmetics.svg';
 import recommendationsGrid from '../assets/images/placeholders/recommendations-grid.svg';
 import howToBuy from '../assets/images/placeholders/how-to-buy.svg';
 import aiAdvisor from '../assets/images/placeholders/ai-advisor.svg';
 import contactEditorial from '../assets/images/placeholders/contact-editorial.svg';
-import maitePortrait from '../assets/images/placeholders/maite-portrait.svg';
 import hairRitual from '../assets/images/placeholders/hair-ritual.svg';
 import legalPaper from '../assets/images/placeholders/legal-paper.svg';
 import productFaceCare from '../assets/images/placeholders/product-face-care.svg';
 import productMakeup from '../assets/images/placeholders/product-makeup.svg';
 import productFragrance from '../assets/images/placeholders/product-fragrance.svg';
+import legacyMaitePortrait from '../assets/images/legacy/maite-portrait.webp';
+import legacyVitaminCSerum from '../assets/images/legacy/vitamin-c-serum.webp';
+import legacyBbCream from '../assets/images/legacy/bb-cream.webp';
+import legacyLifestyleMirror from '../assets/images/legacy/lifestyle-mirror.webp';
 
 export const mediaLibrary = {
   'hero-editorial': {
@@ -18,8 +20,8 @@ export const mediaLibrary = {
     replacementNote: 'Sustituir por hero fotográfico principal si se dispone de imagen definitiva.'
   },
   'philosophy-editorial': {
-    src: philosophyEditorial,
-    replacementNote: 'Ideal para una imagen cálida de valores, manos, texturas o escena editorial.'
+    src: legacyLifestyleMirror,
+    replacementNote: 'Imagen lifestyle recuperada de la web anterior y optimizada para el nuevo diseño.'
   },
   'natural-cosmetics': {
     src: naturalCosmetics,
@@ -42,8 +44,8 @@ export const mediaLibrary = {
     replacementNote: 'Sustituir por foto cercana de contacto o detalle lifestyle de marca personal.'
   },
   'maite-portrait': {
-    src: maitePortrait,
-    replacementNote: 'Sustituir por retrato principal de Maite.'
+    src: legacyMaitePortrait,
+    replacementNote: 'Retrato real de Maite recuperado de la web anterior y optimizado para carga rápida.'
   },
   'hair-ritual': {
     src: hairRitual,
@@ -78,16 +80,16 @@ export const mediaLibrary = {
     replacementNote: 'Sustituir por escena de bienestar o ritual de autocuidado.'
   },
   'serum-vitamin-c': {
-    src: productFaceCare,
-    replacementNote: 'Sustituir por imagen real del sérum Vitamin C Glow Serum.'
+    src: legacyVitaminCSerum,
+    replacementNote: 'Imagen real del sérum Vitamin C Glow Serum recuperada de la web anterior.'
   },
   'calendula-balm': {
     src: productFaceCare,
     replacementNote: 'Sustituir por imagen real del bálsamo de caléndula.'
   },
   'bb-cream': {
-    src: productMakeup,
-    replacementNote: 'Sustituir por imagen real de la BB Cream.'
+    src: legacyBbCream,
+    replacementNote: 'Imagen real de la BB Cream recuperada de la web anterior.'
   },
   'retro-rose-lipstick': {
     src: productMakeup,
