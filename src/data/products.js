@@ -8,6 +8,9 @@ export const productFilters = [
   { id: 'iniciacion', label: 'Iniciación' }
 ];
 
+export const FARMASI_GENERAL_STORE_URL = 'https://www.farmasi.es/maite84';
+
+// Los enlaces proceden de la web antigua maidecoratefarmasi.com y deben revisarse periódicamente por si Farmasi cambia las URLs.
 export const products = [
   {
     id: 'vitamin-c-glow-serum',
@@ -17,7 +20,11 @@ export const products = [
     audience: 'Pieles apagadas, con tono irregular o que buscan una rutina luminosa y sencilla.',
     reason: 'Maite lo recomienda cuando quieres aportar luz a la rutina sin complicarla ni recargar la piel.',
     shortReason: 'Luminosidad y gesto diario de cuidado consciente.',
-    affiliateUrl: 'https://www.farmasi.es/',
+    productUrl:
+      'https://farmasi.es/maite84/product-detail/72df5fa0-6370-ef11-84f3-02f716a02c8f?pid=1002167',
+    linkStatus: 'confirmed-product-link',
+    sourcePage: 'https://maidecoratefarmasi.com/mis-recomendaciones/',
+    originalProductName: 'Vitamin C Glow Serum / Sérum Iluminador con Vitamina C - Dr. C. Tuna',
     imageKey: 'serum-vitamin-c',
     alt: 'Serum de vitamina C con textura ligera sobre bandeja de piedra en un entorno premium de cosmética natural.'
   },
@@ -29,7 +36,10 @@ export const products = [
     audience: 'Pieles sensibles, secas o que buscan una sensación calmante dentro de la rutina.',
     reason: 'Es una opción amable para empezar a cuidarse con fórmulas reconfortantes y una experiencia muy sensorial.',
     shortReason: 'Calma, mimo y textura confortable.',
-    affiliateUrl: 'https://www.farmasi.es/',
+    productUrl: FARMASI_GENERAL_STORE_URL,
+    linkStatus: 'fallback-general-store',
+    sourcePage: 'https://maidecoratefarmasi.com/mis-recomendaciones/',
+    originalProductName: 'Bálsamo de Caléndula - Pieles Sensibles',
     imageKey: 'calendula-balm',
     alt: 'Bálsamo de caléndula con acabado suave, rodeado de pétalos crema y beige.'
   },
@@ -41,7 +51,10 @@ export const products = [
     audience: 'Quien quiere uniformidad ligera, acabado natural y una primera base fácil de integrar.',
     reason: 'Funciona muy bien cuando buscas verte arreglada con un maquillaje cómodo y nada pesado.',
     shortReason: 'Cobertura ligera con efecto piel bonita.',
-    affiliateUrl: 'https://www.farmasi.es/',
+    productUrl: 'https://farmasi.es/maite84/product-detail/bb-beauty-balm-light?pid=1001551',
+    linkStatus: 'confirmed-product-link',
+    sourcePage: 'https://maidecoratefarmasi.com/mis-recomendaciones/',
+    originalProductName: 'BB Cream - Tono Light to Medium / BB Cream con SPF 15',
     imageKey: 'bb-cream',
     alt: 'BB cream de maquillaje natural junto a brocha suave y tonos nude.'
   },
@@ -53,7 +66,11 @@ export const products = [
     audience: 'Amantes de un look elegante, pulido y duradero con un tono rosa sofisticado.',
     reason: 'Es el toque final perfecto para elevar el gesto cotidiano sin perder naturalidad.',
     shortReason: 'Color elegante para un maquillaje con presencia serena.',
-    affiliateUrl: 'https://www.farmasi.es/',
+    productUrl:
+      'https://farmasi.es/maite84/product-detail/00bde14f-7d30-ee11-83b4-000d3a71539d?pid=1001412',
+    linkStatus: 'confirmed-product-link',
+    sourcePage: 'https://maidecoratefarmasi.com/mis-recomendaciones/',
+    originalProductName: 'Labial Líquido Mate - Retro Rose',
     imageKey: 'retro-rose-lipstick',
     alt: 'Labial líquido mate en tono rosa empolvado sobre superficie de mármol cálido.'
   },
@@ -65,7 +82,10 @@ export const products = [
     audience: 'Quien prefiere brillo cómodo, labios jugosos y un efecto cuidado más que recargado.',
     reason: 'Maite lo recomienda para días de maquillaje rápido en los que aún quieres verte pulida.',
     shortReason: 'Brillo fácil con efecto fresco y bonito.',
-    affiliateUrl: 'https://www.farmasi.es/',
+    productUrl: FARMASI_GENERAL_STORE_URL,
+    linkStatus: 'fallback-general-store',
+    sourcePage: 'https://maidecoratefarmasi.com/mis-recomendaciones/',
+    originalProductName: 'Ultimate Shine Lip Gloss - Pink Tourmaline',
     imageKey: 'pink-tourmaline-gloss',
     alt: 'Lip gloss rosa brillante con reflejos suaves en un set de belleza femenino.'
   },
@@ -77,7 +97,10 @@ export const products = [
     audience: 'Personas que desean una rutina capilar ligera, fresca y fácil de mantener.',
     reason: 'Encaja muy bien como propuesta funcional cuando quieres empezar a ordenar tus básicos de cabello.',
     shortReason: 'Rutina limpia y práctica para el día a día.',
-    affiliateUrl: 'https://www.farmasi.es/',
+    productUrl: FARMASI_GENERAL_STORE_URL,
+    linkStatus: 'fallback-general-store',
+    sourcePage: 'sin enlace individual confirmado en maidecoratefarmasi.com',
+    originalProductName: 'Tea Tree Routine Essentials',
     imageKey: 'tea-tree-hair',
     alt: 'Rutina capilar con envases verdes suaves, peine de madera y toalla de lino.'
   },
@@ -89,7 +112,10 @@ export const products = [
     audience: 'Quien busca una fragancia femenina, ligera y fácil de llevar de mañana a noche.',
     reason: 'Es una forma muy bonita de cerrar la rutina con un gesto personal y elegante.',
     shortReason: 'Un aroma delicado para completar el ritual.',
-    affiliateUrl: 'https://www.farmasi.es/',
+    productUrl: FARMASI_GENERAL_STORE_URL,
+    linkStatus: 'fallback-general-store',
+    sourcePage: 'sin enlace individual confirmado en maidecoratefarmasi.com',
+    originalProductName: 'Fragancia Signature Soft Bloom',
     imageKey: 'signature-fragrance',
     alt: 'Frasco de fragancia femenina con flores suaves y luz cálida de tarde.'
   },
@@ -101,7 +127,10 @@ export const products = [
     audience: 'Quien quiere comenzar en Farmasi con una selección equilibrada y sin exceso de productos.',
     reason: 'Resume muy bien la filosofía de empezar con pocos pasos, buena sensorialidad y elección informada.',
     shortReason: 'Una puerta de entrada amable al universo Farmasi.',
-    affiliateUrl: 'https://www.farmasi.es/',
+    productUrl: FARMASI_GENERAL_STORE_URL,
+    linkStatus: 'fallback-general-store',
+    sourcePage: 'sin enlace individual confirmado en maidecoratefarmasi.com',
+    originalProductName: 'Beauty Starter Edit',
     imageKey: 'starter-edit',
     alt: 'Selección inicial de productos Farmasi en ambiente editorial de belleza natural.'
   }

@@ -12,20 +12,22 @@ export const siteConfig = {
   helpCta: 'Necesito ayuda para elegir',
   buyButtonLabel: 'Comprar en Farmasi',
   whatsappButtonLabel: 'Consultar por WhatsApp',
-  sameAs: ['https://www.instagram.com/maidecorate/'],
+  sameAs: [],
   person: {
     name: 'Maite García',
     handle: '@maidecorate',
     jobTitle: 'Creadora de contenido y recomendadora de productos Farmasi',
     description:
       'Maite comparte una mirada cercana sobre belleza natural, estética consciente, cuidado personal y selección honesta de productos Farmasi.',
-    sameAs: ['https://www.instagram.com/maidecorate/']
+    sameAs: []
   },
   links: {
-    farmasiStore: 'https://www.farmasi.es/',
+    farmasiStore: 'https://www.farmasi.es/maite84',
     whatsapp:
       'https://api.whatsapp.com/send?phone=34600000000&text=Hola%20Maite%2C%20me%20gustar%C3%ADa%20recibir%20tu%20ayuda%20para%20elegir%20productos%20Farmasi.',
-    instagram: 'https://www.instagram.com/maidecorate/',
+    // Placeholder heredado: sustituir cuando exista una URL real confirmada.
+    instagram: 'https://www.instagram.com/tuusuario',
+    instagramStatus: 'placeholder-unconfirmed',
     email: 'mailto:hola@maidecoratefarmasi.com',
     tiktok: '',
     cookies: '/cookies/',

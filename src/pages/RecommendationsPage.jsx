@@ -65,7 +65,7 @@ export function RecommendationsPage() {
               </p>
             </div>
             <div className="card-actions">
-              <SmartLink href={product.affiliateUrl} className="button button-primary">
+              <SmartLink href={product.productUrl} className="button button-primary">
                 Ver producto
               </SmartLink>
               <SmartLink href={createAdviceHref(product.name)} className="button button-soft">

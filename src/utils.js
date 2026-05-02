@@ -19,7 +19,7 @@ export const externalProps = (href = '') =>
   isExternalHref(href)
     ? {
         target: '_blank',
-        rel: 'noreferrer'
+        rel: 'noopener noreferrer'
       }
     : {};
 

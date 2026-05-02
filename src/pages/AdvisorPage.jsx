@@ -138,7 +138,7 @@ export function AdvisorPage() {
                 <h3>{product.name}</h3>
                 <p>{product.shortReason}</p>
                 <div className="card-actions">
-                  <SmartLink href={product.affiliateUrl} className="text-link">
+                  <SmartLink href={product.productUrl} className="text-link">
                     Ver producto
                   </SmartLink>
                   <SmartLink href={createAdviceHref(product.name)} className="text-link">
