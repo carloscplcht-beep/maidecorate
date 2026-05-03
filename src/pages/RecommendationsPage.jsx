@@ -66,10 +66,10 @@ export function RecommendationsPage() {
             </div>
             <div className="card-actions">
               <SmartLink href={product.productUrl} className="button button-primary">
-                Ver producto
+                {product.linkStatus === 'confirmed-product-link' ? 'Ver producto' : 'Ver selección'}
               </SmartLink>
               <SmartLink href={createAdviceHref(product.name)} className="button button-soft">
-                Pedir consejo
+                Pedir consejo a Maite
               </SmartLink>
             </div>
           </article>

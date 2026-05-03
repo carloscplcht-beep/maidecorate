@@ -11,7 +11,7 @@ export const productFilters = [
 export const FARMASI_GENERAL_STORE_URL = 'https://www.farmasi.es/maite84';
 
 // Los enlaces proceden de la web antigua maidecoratefarmasi.com y deben revisarse periódicamente por si Farmasi cambia las URLs.
-// Las imágenes confirmadas proceden de la web antigua maidecoratefarmasi.com y deben revisarse periódicamente por si Farmasi cambia los productos visuales.
+// Las imágenes confirmadas proceden de la web antigua maidecoratefarmasi.com o de páginas oficiales Farmasi y deben revisarse periódicamente por si Farmasi cambia los productos visuales.
 export const products = [
   {
     id: 'vitamin-c-glow-serum',
@@ -29,7 +29,8 @@ export const products = [
     originalProductName: 'Vitamin C Glow Serum / Sérum Iluminador con Vitamina C - Dr. C. Tuna',
     imageKey: 'serum-vitamin-c',
     imageStatus: 'confirmed-product-image',
-    imageSource: 'legacy-site',
+    imageSource: 'farmasi-product-page',
+    imageSourceUrl: 'https://content.farmasi.es/Product/1002167_400.webp',
     alt: 'Dr. C. Tuna Vitamin C Glow Serum de Farmasi recomendado por Maidecorate.'
   },
   {
@@ -48,7 +49,8 @@ export const products = [
     originalProductName: 'Bálsamo de Caléndula - Pieles Sensibles',
     imageKey: 'calendula-balm',
     imageStatus: 'confirmed-product-image',
-    imageSource: 'legacy-site',
+    imageSource: 'farmasi-product-page',
+    imageSourceUrl: 'https://content.farmasi.es/Product/1000286_400.webp',
     alt: 'Dr. C Tuna Caléndula Bálsamo Crema de Farmasi recomendado por Maidecorate.'
   },
   {
@@ -66,7 +68,8 @@ export const products = [
     originalProductName: 'BB Cream - Tono Light to Medium / BB Cream con SPF 15',
     imageKey: 'bb-cream',
     imageStatus: 'confirmed-product-image',
-    imageSource: 'legacy-site',
+    imageSource: 'farmasi-product-page',
+    imageSourceUrl: 'https://content.farmasi.es/Product/1001551_400.webp',
     alt: 'BB Cream con SPF 15 Farmasi Beauty Balm Light recomendada por Maidecorate.'
   },
   {
@@ -85,7 +88,8 @@ export const products = [
     originalProductName: 'Labial Líquido Mate - Retro Rose',
     imageKey: 'retro-rose-lipstick',
     imageStatus: 'confirmed-product-image',
-    imageSource: 'legacy-site',
+    imageSource: 'farmasi-product-page',
+    imageSourceUrl: 'https://content.farmasi.es/Product/1001412_400.webp',
     alt: 'Labial Líquido Mate Retro Rose 04 de Farmasi recomendado por Maidecorate.'
   },
   {
@@ -104,61 +108,62 @@ export const products = [
     originalProductName: 'Ultimate Shine Lip Gloss - Pink Tourmaline',
     imageKey: 'pink-tourmaline-gloss',
     imageStatus: 'confirmed-product-image',
-    imageSource: 'legacy-site',
+    imageSource: 'farmasi-product-page',
+    imageSourceUrl: 'https://content.farmasi.es/Product/1001406_400.webp',
     alt: 'Ultimate Shine Lip Gloss Pink Tourmaline de Farmasi recomendado por Maidecorate.'
   },
   {
     id: 'tea-tree-routine',
-    name: 'Tea Tree Routine Essentials',
+    name: 'Rutina capilar orientativa Tea Tree',
     category: 'cabello',
     filters: ['cabello'],
     audience: 'Personas que desean una rutina capilar ligera, fresca y fácil de mantener.',
-    reason: 'Encaja muy bien como propuesta funcional cuando quieres empezar a ordenar tus básicos de cabello.',
-    shortReason: 'Rutina limpia y práctica para el día a día.',
+    reason: 'Funciona como categoría de orientación para ordenar básicos de cabello antes de elegir productos concretos.',
+    shortReason: 'Rutina orientativa para empezar a elegir básicos capilares.',
     productUrl: FARMASI_GENERAL_STORE_URL,
     linkStatus: 'fallback-general-store',
     sourcePage: 'sin enlace individual confirmado en maidecoratefarmasi.com',
-    sourceNote: 'Sin enlace individual confirmado; se mantiene fallback a tienda general de Maite',
-    originalProductName: 'Tea Tree Routine Essentials',
+    sourceNote: 'Selección orientativa sin producto individual confirmado; se mantiene fallback a tienda general de Maite',
+    originalProductName: 'Rutina capilar orientativa Tea Tree',
     imageKey: 'tea-tree-hair',
     imageStatus: 'pending-real-image',
     imageSource: 'pending-confirmation',
-    alt: 'Rutina capilar con envases verdes suaves, peine de madera y toalla de lino.'
+    alt: 'Rutina capilar orientativa con envases verdes suaves, peine de madera y toalla de lino.'
   },
   {
     id: 'signature-fragrance',
-    name: 'Fragancia Signature Soft Bloom',
+    name: 'Colección orientativa de fragancias suaves',
     category: 'fragancias',
     filters: ['fragancias', 'favoritos'],
     audience: 'Quien busca una fragancia femenina, ligera y fácil de llevar de mañana a noche.',
-    reason: 'Es una forma muy bonita de cerrar la rutina con un gesto personal y elegante.',
-    shortReason: 'Un aroma delicado para completar el ritual.',
+    reason: 'Ayuda a orientar la búsqueda dentro de fragancias suaves antes de escoger una referencia concreta.',
+    shortReason: 'Categoría orientativa para encontrar un aroma delicado.',
     productUrl: FARMASI_GENERAL_STORE_URL,
     linkStatus: 'fallback-general-store',
     sourcePage: 'sin enlace individual confirmado en maidecoratefarmasi.com',
-    sourceNote: 'Sin enlace individual confirmado; se mantiene fallback a tienda general de Maite',
-    originalProductName: 'Fragancia Signature Soft Bloom',
+    sourceNote: 'Colección orientativa sin producto individual confirmado; se mantiene fallback a tienda general de Maite',
+    originalProductName: 'Colección orientativa de fragancias suaves',
     imageKey: 'signature-fragrance',
     imageStatus: 'pending-real-image',
     imageSource: 'pending-confirmation',
-    alt: 'Frasco de fragancia femenina con flores suaves y luz cálida de tarde.'
+    alt: 'Colección orientativa de fragancias femeninas suaves con flores y luz cálida de tarde.'
   },
   {
     id: 'starter-beauty-edit',
-    name: 'Beauty Starter Edit',
+    name: 'Selección recomendada de iniciación',
     category: 'facial',
     filters: ['facial', 'iniciacion'],
     audience: 'Quien quiere comenzar en Farmasi con una selección equilibrada y sin exceso de productos.',
     reason: 'Resume muy bien la filosofía de empezar con pocos pasos, buena sensorialidad y elección informada.',
-    shortReason: 'Una puerta de entrada amable al universo Farmasi.',
+    shortReason: 'Una colección orientativa para empezar con calma.',
     productUrl: FARMASI_GENERAL_STORE_URL,
     linkStatus: 'fallback-general-store',
     sourcePage: 'sin enlace individual confirmado en maidecoratefarmasi.com',
-    sourceNote: 'Sin enlace individual confirmado; se mantiene fallback a tienda general de Maite',
-    originalProductName: 'Beauty Starter Edit',
+    sourceNote: 'Selección orientativa sin producto individual confirmado; se mantiene fallback a tienda general de Maite',
+    originalProductName: 'Selección recomendada de iniciación',
     imageKey: 'starter-edit',
     imageStatus: 'pending-real-image',
     imageSource: 'pending-confirmation',
-    alt: 'Selección inicial de productos Farmasi en ambiente editorial de belleza natural.'
+    alt: 'Selección recomendada de iniciación Farmasi en ambiente editorial de belleza natural.'
   }
 ];

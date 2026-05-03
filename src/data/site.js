@@ -27,7 +27,7 @@ export const siteConfig = {
     farmasiStore: 'https://www.farmasi.es/maite84',
     contactEmailUrl: 'mailto:maite.taran@gmail.com?subject=Consulta%20Maidecorate%20Farmasi',
     // Placeholder heredado: sustituir cuando exista una URL real confirmada.
-    instagram: 'https://www.instagram.com/tuusuario',
+    instagram: '',
     instagramStatus: 'placeholder-unconfirmed',
     email: 'mailto:maite.taran@gmail.com?subject=Consulta%20Maidecorate%20Farmasi',
     tiktok: '',
@@ -515,7 +515,7 @@ export const pages = {
     seo: {
       title: 'Contacto | Habla con Maite sobre productos Farmasi y belleza consciente',
       description:
-        'Escríbele a Maite por email, Instagram o correo para recibir ayuda personalizada al elegir productos Farmasi.',
+        'Escríbele a Maite por email para recibir ayuda personalizada al elegir productos Farmasi.',
       keywords: [...sharedKeywords, 'contacto Farmasi', 'consultar con Maite']
     },
     hero: {

@@ -10,7 +10,7 @@ Nueva versión estática de la web de Maidecorate Farmasi, construida con React 
 - SEO por página con `title`, `description`, Open Graph, Twitter cards, canonical y JSON-LD.
 - `sitemap.xml`, `robots.txt`, `favicon.svg`, `social-share.svg` y páginas legales base.
 - Asesor IA local basado en preguntas y respuestas, sin API externa.
-- Botones visibles en móvil para comprar en Farmasi y consultar por WhatsApp.
+- Botones visibles en móvil para comprar en Farmasi y consultar por email.
 
 ## Instalación
 
@@ -72,7 +72,7 @@ Cada producto tiene estos campos:
 - `filters`: filtros en los que aparece.
 - `audience`: para quién puede ser útil.
 - `reason`: por qué lo recomienda Maite.
-- `affiliateUrl`: enlace de afiliado o tienda Farmasi.
+- `productUrl`: enlace individual de producto o tienda Farmasi general si no hay enlace confirmado.
 - `imageKey`: clave de imagen usada desde `src/data/media.js`.
 - `alt`: texto alternativo SEO y accesible.
 
@@ -97,16 +97,19 @@ Para sustituir una imagen:
 
 Los prompts para generar nuevas imágenes están en `IMAGE_PROMPTS.md`.
 
-## Cómo cambiar enlaces Farmasi, WhatsApp e Instagram
+## Cómo cambiar enlaces Farmasi, email e Instagram
 
 Edita `siteConfig.links` en `src/data/site.js`.
 
 Campos habituales:
 
 - `farmasiStore`: enlace principal a la tienda oficial Farmasi.
-- `whatsapp`: enlace directo con mensaje prellenado.
-- `instagram`: perfil social.
+- `contactEmailUrl`: enlace `mailto:` principal para consultas.
 - `email`: correo usado por el formulario estático.
+- `instagram`: perfil social si existe una URL real confirmada.
+- `instagramStatus`: marca si el enlace de Instagram está confirmado o pendiente.
+
+El email definitivo de contacto se configura en `src/data/site.js`, en `siteConfig.contactEmail`, `siteConfig.contactEmailUrl` y `siteConfig.links.contactEmailUrl`.
 
 ## Despliegue en Vercel
 
@@ -176,7 +179,7 @@ También se crean redirecciones estáticas para:
 
 ## Checklist antes de publicar
 
-- Sustituir número de WhatsApp de ejemplo.
+- Revisar que el email de contacto definitivo está configurado en `src/data/site.js`.
 - Sustituir enlaces Farmasi por los enlaces personales definitivos.
 - Completar aviso legal, privacidad, cookies y afiliación con datos reales.
 - Sustituir placeholders por fotos definitivas si se dispone de ellas.

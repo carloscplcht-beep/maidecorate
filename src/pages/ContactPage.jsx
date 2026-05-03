@@ -44,7 +44,7 @@ export function ContactPage() {
 
       <section className="contact-grid">
         <div className="contact-methods">
-          {page.methods.map((method) => (
+          {page.methods.filter((method) => method.href).map((method) => (
             <article key={method.title} className="contact-card">
               <h2>{method.title}</h2>
               <p>{method.description}</p>

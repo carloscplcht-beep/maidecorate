@@ -84,23 +84,23 @@ export const mediaLibrary = {
   },
   'serum-vitamin-c': {
     src: productVitaminCGlowSerum,
-    replacementNote: 'Imagen real del sérum Vitamin C Glow Serum recuperada de la web anterior.'
+    replacementNote: 'Imagen oficial Farmasi del sérum Vitamin C Glow Serum, optimizada para la web.'
   },
   'calendula-balm': {
     src: productCalendulaBalm,
-    replacementNote: 'Imagen real del bálsamo de caléndula recuperada de la web anterior.'
+    replacementNote: 'Imagen oficial Farmasi del bálsamo de caléndula, optimizada para la web.'
   },
   'bb-cream': {
     src: productBbCreamLight,
-    replacementNote: 'Imagen real de la BB Cream recuperada de la web anterior.'
+    replacementNote: 'Imagen oficial Farmasi de la BB Cream, optimizada para la web.'
   },
   'retro-rose-lipstick': {
     src: productRetroRose04,
-    replacementNote: 'Imagen real del labial Retro Rose 04 recuperada de la web anterior.'
+    replacementNote: 'Imagen oficial Farmasi del labial Retro Rose 04, optimizada para la web.'
   },
   'pink-tourmaline-gloss': {
     src: productPinkTourmalineGloss,
-    replacementNote: 'Imagen real del gloss Pink Tourmaline recuperada de la web anterior.'
+    replacementNote: 'Imagen oficial Farmasi del gloss Pink Tourmaline, optimizada para la web.'
   },
   'tea-tree-hair': {
     src: hairRitual,

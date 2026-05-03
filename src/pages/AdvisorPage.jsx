@@ -139,7 +139,7 @@ export function AdvisorPage() {
                 <p>{product.shortReason}</p>
                 <div className="card-actions">
                   <SmartLink href={product.productUrl} className="text-link">
-                    Ver producto
+                    {product.linkStatus === 'confirmed-product-link' ? 'Ver producto' : 'Ver selección'}
                   </SmartLink>
                   <SmartLink href={createAdviceHref(product.name)} className="text-link">
                     Consultar con Maite
